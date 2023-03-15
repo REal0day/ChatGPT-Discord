@@ -31,14 +31,15 @@ This repository contains a simple Python script that integrates OpenAI's ChatGPT
 
 #### Part II
 If you had difficulties with step 5, this is what I did.
-1. Select the Application > Bot and scroll down to Bot Permissions.
-2. Here select all the permissions you want to add. I'm adding everything that let the bot interact with us, but won't let it control the server. Everything with "Send" and "Create", I will let it do. And "Read Message History". I even let it change it's own nickname if it wants to. 
-3. Now go to the bottom and you'll see a number. That number represents the permissions the bot has. In my case, it's 3270722313792.
-4. Given the URL: `https://discord.com/api/oauth2/authorize?client_id=<INSERT-CLIENT-ID>&permissions=<INSERT-PERMISSION-NUMBER>&scope=bot`
+1. Get the client-id by going to OAuth2 Settings. It will be in the field: Client information
+2. Select the Application > Bot and scroll down to Bot Permissions.
+3. Here select all the permissions you want to add. I'm adding everything that let the bot interact with us, but won't let it control the server. Everything with "Send" and "Create", I will let it do. And "Read Message History". I even let it change it's own nickname if it wants to. 
+4. Now go to the bottom and you'll see a number. That number represents the permissions the bot has. In my case, it's 3270722313792.
+5. You must be logged into Discord in your browser for this next step. Given the URL: `https://discord.com/api/oauth2/authorize?client_id=<INSERT-CLIENT-ID>&permissions=<INSERT-PERMISSION-NUMBER>&scope=bot`
 replace the client-id with your bots client-id, and the permissions with the permission number.
 Then go to the link, and approve the bot into your server.
 `https://discord.com/api/oauth2/authorize?client_id=<INSERT-CLIENT-ID>&permissions=<INSERT-PERMISSION-NUMBER>&scope=bot`
-5. You bot should be on your server now.
+6. You bot should be on your server now. 
  
 ## Installation and Configuration ⚙️
 
