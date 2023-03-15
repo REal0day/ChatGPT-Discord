@@ -60,7 +60,7 @@ OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>`
 1. Open a terminal or command prompt and navigate to the root directory of the project.
 2. Run the following command to start the bot:
 
-python3 chat3_v2.py
+`python3 chat3_v2.py`
 
 3. The bot should now be online in your Discord server. To interact with ChatGPT, type `!chat <your_message>` in a text channel.
 
