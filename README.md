@@ -24,10 +24,11 @@ This repository contains a simple Python script that integrates OpenAI's ChatGPT
 1. Go to the [Discord Developer Portal](https://discord.com/developers/applications) and sign in with your Discord account.
 2. Click on the "New Application" button and provide a name for your bot.
 3. Navigate to the "Bot" tab and click on "Add Bot". Confirm the action when prompted.
-4. Under the "Token" section, click on "Copy" to copy your bot's token. Keep this token safe and do not share it publicly.
-5. Go to the "OAuth2" tab, scroll down to the "Scopes" section, and select the "bot" scope.
-6. In the "Bot Permissions" section, select "Send Messages" and "Read Message History".
-7. Copy the generated URL from the "Scopes" section and paste it into your browser to invite the bot to your server.
+4. Under "Privileged Gateway Intents", check all three of them.
+5. Under the "Token" section, click on "Copy" to copy your bot's token. Keep this token safe and do not share it publicly.
+6. Go to the "OAuth2" tab, scroll down to the "Scopes" section, and select the "bot" scope.
+7. In the "Bot Permissions" section, select "Send Messages" and "Read Message History".
+8. Copy the generated URL from the "Scopes" section and paste it into your browser to invite the bot to your server.
 
 #### Part II
 If you had difficulties with step 5, this is what I did.
